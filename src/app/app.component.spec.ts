@@ -15,13 +15,13 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome cdk-ext'
+      'Welcome cdk-ext-demo'
     );
   });
 
-  it(`should have as title 'cdk-ext'`, () => {
+  it(`should have as title 'cdk-ext-demo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('cdk-ext');
+    expect(app.title).toEqual('cdk-ext-demo');
   });
 });

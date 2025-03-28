@@ -1,0 +1,11 @@
+{
+  "name": "@reboot25/cdk-ext",
+  "description": "A library for Angular CDK extensions",
+  "license": "MIT",
+  "version": "0.0.1-beta.0",
+  "peerDependencies": {
+    "@angular/core": ">=16.0.0 <20.0.0",
+    "@angular/cdk": ">=16.0.0 <20.0.0"
+  },
+  "sideEffects": false
+}
