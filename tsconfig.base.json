@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@reboot25/cdk-ext/list": ["libs/cdk-ext/src/index.ts"]
+      "@reboot25/cdk-ext/*": ["libs/cdk-ext/*/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

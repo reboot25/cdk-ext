@@ -1,0 +1,6 @@
+.multi-col-scrolling {
+  >.cdk-virtual-scroll-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

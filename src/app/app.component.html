@@ -1,2 +1,10 @@
-<app-nx-welcome></app-nx-welcome>
-<router-outlet></router-outlet>
+<div class="flex items-center h-screen justify-center flex-col gap-5">
+  <div class="text-3xl">Example of multi column scrolling with Angular CDK by <a href="https://www.npmjs.com/package/@reboot25/cdk-ext" class="text-blue-600 hover:underline">&#64;reboot25/cdk-ext</a></div>
+  <cdk-virtual-scroll-viewport [itemDimension]="itemDimension" class="w-1/2 h-2/3 border flex flex-wrap multi-col-scrolling" minBufferPx="800" maxBufferPx="800">
+    <div *cdkVirtualFor="let item of items" class="h-[100px] w-[400px]">
+      <div class="h-full p-1">
+        <div class="h-full border p-2 shadow flex items-center hover:bg-blue-400 hover:text-white cursor-pointer justify-center">{{item}}</div>
+      </div>
+    </div>
+  </cdk-virtual-scroll-viewport>
+</div>
