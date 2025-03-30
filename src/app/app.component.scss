@@ -7,3 +7,10 @@
 .example-item {
   height: 50px;
 }
+
+.multi-col-scrolling {
+  >.cdk-virtual-scroll-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
